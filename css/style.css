@@ -591,6 +591,14 @@ a {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-menu:before {
+  content: "\e9bd";
+}
+
+.icon-close:before {
+  content: "\ea0f";
+}
+
 .icon-fb:before {
   content: "\ea90";
 }
