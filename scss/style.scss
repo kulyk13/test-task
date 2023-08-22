@@ -3,7 +3,7 @@
 @import "common.scss";
 @import "variables.scss";
 @import "mixins.scss";
-/* ----- HEADER START ----- */
+/* ----- HEADER START ----- */ 
 .header {
   padding-top: 20px;
   padding-bottom: 20px;
@@ -46,4 +46,4 @@
 }
 /* ----- FOOTER END ----- */
 
-@import "adaptive.scss";
+@import "adaptive-mobile-first.scss";

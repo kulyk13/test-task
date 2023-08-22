@@ -77,10 +77,10 @@ a {
 @import "menu.scss";
 @import "button.scss";
 @import "form.scss";
-[class^="icon-"],
-[class*=" icon-"] {
+
+[class^="icon-"], [class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
+  font-family: 'icomoon' !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
@@ -91,45 +91,14 @@ a {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-.icon-close:before {
-  content: "\e90b";
+
+.icon-fb:before {
+  content: "\ea90";
 }
-.icon-menu:before {
-  content: "\e90a";
-}
-.icon-telephone:before {
-  content: "\e902";
-}
-.icon-geo:before {
-  content: "\e903";
-}
-.icon-mail:before {
-  content: "\e905";
-}
-.icon-arrow:before {
-  content: "\e900";
-}
-.icon-check:before {
-  content: "\e901";
-}
-.icon-facebook:before {
-  content: "\e904";
-  color: #fff;
-}
-.icon-linkedin:before {
-  content: "\e906";
-  color: #fff;
-}
-.icon-phone:before {
-  content: "\e907";
-  color: #fff;
-}
-.icon-pinterest:before {
-  content: "\e909";
-  color: #fff;
+.icon-insta:before {
+  content: "\ea92";
 }
 .icon-twitter:before {
-  content: "\e908";
-  color: #fff;
+  content: "\ea96";
 }
 /* ----- COMMON STYLES END ----- */
