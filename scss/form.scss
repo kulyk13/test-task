@@ -1,0 +1,86 @@
+//FORM
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  &:focus-within > .form__label::after {
+    content: "";
+  }
+  &__label {
+    &.required {
+      &::after {
+        content: "*";
+        position: absolute;
+        top: 16px;
+        left: 130px;
+        color: #c30000;
+        z-index: 15;
+      }
+    }
+    &-checkbox {
+      position: relative;
+      padding-left: 40px;
+      font-size: 14px;
+      letter-spacing: 0.03em;
+      line-height: 1.25;
+      margin: 12px 0;
+    }
+  }
+  &__input {
+    padding: 15px 21px;
+    background-color: #f3f3f3;
+    width: 391px;
+    border: 0;
+    resize: none;
+    font-size: 14px;
+  }
+  ::-webkit-input-placeholder {
+    color: #8d8d8d;
+  }
+  :-moz-placeholder {
+    color: #8d8d8d;
+  }
+  ::-moz-placeholder {
+    color: #8d8d8d;
+  }
+  :-ms-input-placeholder {
+    color: #8d8d8d;
+  }
+  &__checkbox {
+    position: absolute;
+    appearance: none;
+    &:focus-within + .form__check {
+      outline: 2px solid #000;
+    }
+    &:checked + .form__check {
+      background-image: url(../img/check.svg);
+    }
+  }
+  &__check {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+  }
+  &__btn {
+    background-color: $btn_color;
+    color: $btn_text_color;
+    border: 1px solid $btn_color;
+    &:hover,
+    &:focus-within {
+      background-color: $btn_color_light;
+      color: $btn_color;
+      .arrow {
+        fill: $btn_color;
+      }
+    }
+    .arrow {
+      fill: $btn_text_color;
+    }
+  }
+}

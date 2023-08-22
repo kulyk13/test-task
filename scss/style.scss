@@ -1,0 +1,49 @@
+@import "fonts.scss";
+@import "reset.scss";
+@import "common.scss";
+@import "variables.scss";
+@import "mixins.scss";
+/* ----- HEADER START ----- */
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  &__menu {
+    column-gap: 60px;
+    margin-right: 123px;
+    margin-left: auto;
+    letter-spacing: 0.2em;
+  }
+  &__burger-btn {
+    display: none;
+  }
+}
+/* ----- HEADER END ----- */
+/* ----- HERO START ----- */
+.hero {
+  padding-top: 50px;
+  padding-bottom: 60px;
+}
+/* ----- HERO END ----- */
+/* -----  START ----- */
+
+/* -----  END ----- */
+/* -----  START ----- */
+
+/* -----  END ----- */
+/* -----  START ----- */
+
+/* -----  END ----- */
+/* -----  START ----- */
+
+/* -----  END ----- */
+/* ----- FOOTER START ----- */
+.footer {
+  padding-top: 60px;
+  padding-bottom: 24px;
+}
+.copyright {
+  font-size: 12px;
+}
+/* ----- FOOTER END ----- */
+
+@import "adaptive.scss";

@@ -1,0 +1,24 @@
+//TABS
+.tabs {
+  display: flex;
+  column-gap: 36px;
+  &__link {
+    color: $text_color_disabled;
+    text-transform: uppercase;
+    padding-bottom: 23px;
+    padding-left: 0;
+    padding-right: 0;
+    border-bottom: 4px solid transparent;
+    transition: $tr_time;
+    &:hover,
+    &:focus-within {
+      color: $text_color;
+    }
+    &.tabs__link--active {
+      color: $text_color;
+      border-image: linear-gradient(135deg, #ff974f 55%, #e32c75 100%);
+      border-image-slice: 1;
+      transition: $tr_time;
+    }
+  }
+}
