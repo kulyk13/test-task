@@ -43,7 +43,7 @@
 
   <body>
     <header class="header">
-      <nav class="nav header__nav container">
+      <nav class="container nav header__nav">
         <a href="index.html" class="logo"> Logo here! </a>
         <ul id="burgerMenu" class="menu header__menu burger-menu">
           <li class="menu__item header__menu-item">
@@ -80,7 +80,7 @@
     <main class="main">
       <section class="hero">
         <h1 class="visually-hidden">Important title for SEO</h1>
-        <div class="hero__wrap container">
+        <div class="container hero__wrap">
           <div class="offer">
             <h2 class="offer__title">The name of the product</h2>
             <p class="offer__text">
@@ -102,31 +102,89 @@
               </div>
             </a>
           </div>
-          <!-- Slider main container -->
           <div class="swiper slider">
-            <!-- Additional required wrapper -->
             <div class="swiper-wrapper">
-              <!-- Slides -->
               <div class="swiper-slide">Slide 1</div>
               <div class="swiper-slide">Slide 2</div>
               <div class="swiper-slide">Slide 3</div>
-              ...
             </div>
-            <!-- If we need pagination -->
             <div class="swiper-pagination"></div>
           </div>
         </div>
       </section>
       <section class="what`snew">
-        <div class="what`snew__wrap container">
+        <div class="container what`snew__wrap">
           <h2 class="section-title what`snew__title">
             What is new in our product
           </h2>
           <video
             src="video/video.mp4"
+            width="344"
+            controls
             class="what`snew__video"
             poster="img/buildings.webp"
           ></video>
+        </div>
+      </section>
+      <section class="addinfo">
+        <div class="container addinfo__wrap">
+          <h2 class="section-title addinfo__title">
+            Additional app information
+          </h2>
+          <div class="addinfo__content">
+            <figure class="addinfo-picblock">
+              <img
+                src="img/black.webp"
+                alt="important atribute for seo"
+                class="addinfo-picblock__img"
+                width="238"
+                height="404"
+                loading="lazy"
+              />
+            </figure>
+            <ul class="addinfo-list">
+              <li class="addinfo-list__point">
+                <i class="addinfo-list__point-number">1</i>
+                <div class="addinfo-list__point-desc">
+                  <p class="addinfo-list__point-subtitle">
+                    Licensed & Regulated
+                  </p>
+                  <p class="addinfo-list__point-text">
+                    At vero eos et accusamus et iusto odio
+                  </p>
+                </div>
+              </li>
+              <li class="addinfo-list__point">
+                <i class="addinfo-list__point-number">2</i>
+                <div class="addinfo-list__point-desc">
+                  <p class="addinfo-list__point-subtitle">
+                    Multi-Asset CFD Provider
+                  </p>
+                  <p class="addinfo-list__point-text">
+                    Stocks | FX | Commodities | Indices | Crypto
+                  </p>
+                </div>
+              </li>
+              <li class="addinfo-list__point">
+                <i class="addinfo-list__point-number">3</i>
+                <div class="addinfo-list__point-desc">
+                  <p class="addinfo-list__point-subtitle">
+                    Ultra-Low-Cost Trading
+                  </p>
+                  <p class="addinfo-list__point-text">Spreads from 0.0 pips</p>
+                </div>
+              </li>
+              <li class="addinfo-list__point">
+                <i class="addinfo-list__point-number">4</i>
+                <div class="addinfo-list__point-desc">
+                  <p class="addinfo-list__point-subtitle">
+                    Auto-Trading Platform
+                  </p>
+                  <p class="addinfo-list__point-text">Proven | Safe | Simple</p>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
       </section>
     </main>
