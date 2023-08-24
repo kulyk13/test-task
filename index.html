@@ -248,6 +248,75 @@
           </a>
         </div>
       </section>
+      <section class="contact-us">
+        <div class="container contact-us__wrap">
+          <form action="/" method="post" class="form contact-us__form">
+            <label class="form__label contact-us__form-label">
+              Name
+              <input
+                id="name"
+                class="form__input contact-us__form-input"
+                type="text"
+                name="name"
+                placeholder="Name"
+              />
+            </label>
+            <label class="form__label contact-us__form-label required">
+              Email
+              <input
+                id="email"
+                class="form__input contact-us__form-input"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+            </label>
+            <label class="form__label contact-us__form-label required">
+              Message
+              <textarea
+                id="message"
+                class="form__input contact-us__form-input"
+                name="message"
+                placeholder="Message"
+                required
+              ></textarea>
+            </label>
+            <label class="form__label-checkbox contact-us__form-checkbox">
+              <input
+                id="agree"
+                name="agree"
+                type="checkbox"
+                class="form__checkbox contact-us__checkbox"
+                required
+              />
+              <span class="form__check"></span>
+              Отправляя заявку Вы соглашаетесь с политикой конфиденциальности
+            </label>
+            <button
+              id="sendForm"
+              class="btn form__btn contact-us__form-btn"
+              type="submit"
+            >
+              Send
+            </button>
+          </form>
+          <div class="contact-us__content">
+            <h2 class="contact-us__title">
+              Looking for an excellent business idea?
+            </h2>
+            <p class="contact-us__text">
+              Give us a call or email anytime, we strive to answer all inquiries
+              within 24 hours on business days.
+            </p>
+            <img
+              src="img/abstarct2.webp"
+              alt="Abstract picture"
+              class="contact-us__img"
+            />
+          </div>
+        </div>
+      </section>
     </main>
 
     <footer class="footer"></footer>
