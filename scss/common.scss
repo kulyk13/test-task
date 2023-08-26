@@ -59,7 +59,7 @@ a {
 }
 .section-title {
   color: $text_color;
-  @include font(700, 28px)
+  @include font(700, 28px);
 }
 .container {
   min-width: 100%;
@@ -76,15 +76,19 @@ a {
   margin-left: -10px;
   text-transform: uppercase;
   color: $text_color_main;
-  @include font(600, 22px);  
+  @include font(600, 22px);
+}
+.main {
+  overflow-x: hidden;
 }
 @import "menu.scss";
 @import "button.scss";
 @import "form.scss";
 
-[class^="icon-"], [class*=" icon-"] {
+[class^="icon-"],
+[class*=" icon-"] {
   /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: 'icomoon' !important;
+  font-family: "icomoon" !important;
   font-style: normal;
   font-weight: normal;
   font-variant: normal;
