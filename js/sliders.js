@@ -10,6 +10,7 @@ const heroSlider = new Swiper(".slider", {
 
 const overviewSlider = new Swiper(".overview-slider", {
     loop: true,
+    spaceBetween: 100,
     pagination: {
         el: '.swiper-pagination',
         clickable: true,

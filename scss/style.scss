@@ -134,6 +134,8 @@
 
   &__video {
     border-radius: 8px;
+    display: flex;
+    margin: 0 auto;
   }
 }
 /* ----- WHATSNEW END ----- */
@@ -226,9 +228,58 @@
   }
 }
 /* ----- ADDINFO END ----- */
-/* -----  START ----- */
+/* ----- OVERVIEW START ----- */
+.overview {
+  padding-top: 45px;
+  padding-bottom: 80px;
 
-/* -----  END ----- */
+  &__title {
+    text-align: center;
+    margin-bottom: 21px;
+  }
+
+  &__content {
+    line-height: 1.1;
+    margin-bottom: 40px;
+
+    &-title {
+      font-weight: 600;
+      margin-bottom: 34px;
+    }
+  }
+
+  &__learnmore {
+    padding-left: 5px;
+    margin-top: 5px;
+    font-weight: 500;
+    color: $btn_color;
+
+    &-arrow {
+      margin-left: 30px;
+    }
+  }
+
+  &-slider {
+    &.swiper-horizontal {
+      padding-bottom: 46px;
+    }
+
+    &__slide {
+      width: 100%;
+      height: 298px;
+      background-color: $btn_color;
+      border-radius: 14px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: $btn_color;
+    }
+  }
+}
+/* ----- OVERVIEW END ----- */
+/* ----- DOWNLOAD START ----- */
+
+/* ----- DOWNLOAD END ----- */
 /* ----- CONTACT US START ----- */
 .contact-us {
   &__form {
