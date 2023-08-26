@@ -122,9 +122,21 @@
   }
 }
 /* ----- HERO END ----- */
-/* -----  START ----- */
+/* ----- WHATSNEW START ----- */
+.whatsnew {
+  padding-top: 52px;
+  padding-bottom: 45px;
 
-/* -----  END ----- */
+  &__title {
+    text-align: center;
+    margin-bottom: 22px;
+  }
+
+  &__video {
+    border-radius: 8px;
+  }
+}
+/* ----- WHATSNEW END ----- */
 /* -----  START ----- */
 
 /* -----  END ----- */
