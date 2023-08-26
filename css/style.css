@@ -980,6 +980,24 @@ a {
 
 /* ----- OVERVIEW END ----- */
 /* ----- DOWNLOAD START ----- */
+.download {
+  padding-top: 47px;
+  padding-bottom: 49px;
+  background-image: url(../img/Rect2.webp);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  text-align: center;
+}
+.download__title {
+  font-weight: 500;
+  margin-bottom: 14px;
+}
+.download__text {
+  line-height: 1.2;
+  color: hsla(226deg, 54%, 11%, 0.8);
+  margin-bottom: 60px;
+}
+
 /* ----- DOWNLOAD END ----- */
 /* ----- CONTACT US START ----- */
 .contact-us__form {

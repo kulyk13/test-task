@@ -278,7 +278,25 @@
 }
 /* ----- OVERVIEW END ----- */
 /* ----- DOWNLOAD START ----- */
+.download {
+  padding-top: 47px;
+  padding-bottom: 49px;
+  background-image: url(../img/Rect2.webp);
+  background-repeat: no-repeat;
+  background-position: 10% 50%;
+  text-align: center;
 
+  &__title {
+    font-weight: 500;
+    margin-bottom: 14px;
+  }
+
+  &__text {
+    line-height: 1.2;
+    color: $text_color_light;
+    margin-bottom: 60px;
+  }
+}
 /* ----- DOWNLOAD END ----- */
 /* ----- CONTACT US START ----- */
 .contact-us {
