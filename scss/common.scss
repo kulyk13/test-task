@@ -43,6 +43,7 @@ body {
   line-height: 1;
   background-color: $bg_color;
   color: $text_color;
+  min-width: 320px;
 }
 a {
   color: $text_color;
@@ -57,12 +58,12 @@ a {
   margin: -1px;
 }
 .section-title {
-  color: $text_color_light;
-  font-weight: 300;
-  font-size: 64px;
+  color: $text_color;
+  font-weight: 700;
+  font-size: 28px;
 }
 .container {
-  max-width: 1200px;
+  min-width: 100%;
   width: 100%;
   margin: 0 auto;
   padding: 0 15px;
@@ -70,9 +71,13 @@ a {
 .nav {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 .logo {
   margin-left: -10px;
+  text-transform: uppercase;
+  color: $text_color_main;
+  @include font(600, 22px);  
 }
 @import "menu.scss";
 @import "button.scss";

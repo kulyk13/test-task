@@ -1,6 +1,5 @@
 //MIXINS
-@mixin font($ff, $fw, $fz) {
-  font-family: $ff, sans-serif;
+@mixin font($fw, $fz) {
   font-weight: $fw;
   font-size: $fz;
 }

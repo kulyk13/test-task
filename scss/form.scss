@@ -8,14 +8,14 @@
   }
   &__label {
     &.required {
-      &::after {
-        content: "*";
-        position: absolute;
-        top: 16px;
-        left: 130px;
-        color: #c30000;
-        z-index: 15;
-      }
+      // &::after {
+      //   content: "*";
+      //   position: absolute;
+      //   top: 16px;
+      //   left: 130px;
+      //   color: #c30000;
+      //   z-index: 15;
+      // }
     }
     &-checkbox {
       position: relative;

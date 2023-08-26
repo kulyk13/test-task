@@ -1,12 +1,11 @@
-// Burger menu
-// burgerBtn.addEventListener("click", (ev) => {
-//   burgerMenu.classList.toggle("open");
-//   mobileHeader.classList.toggle("shadow");
-//   burgerBtn.classList.toggle("close");
-// });
-// window.addEventListener("load", (ev) => {
-//   burgerMenu.classList.add("transition");
-// });
+//Burger menu
+burgerBtn.addEventListener("click", (ev) => {
+  burgerMenu.classList.toggle("open");
+  burgerBtn.classList.toggle("close");
+});
+window.addEventListener("load", (ev) => {
+  burgerMenu.classList.add("transition");
+});
 
 //Popup
 // let openPopup = document.querySelectorAll(".js-open-popup");
