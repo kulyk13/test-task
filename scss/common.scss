@@ -59,8 +59,7 @@ a {
 }
 .section-title {
   color: $text_color;
-  font-weight: 700;
-  font-size: 28px;
+  @include font(700, 28px)
 }
 .container {
   min-width: 100%;

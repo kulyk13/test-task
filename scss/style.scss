@@ -3,7 +3,7 @@
 @import "common.scss";
 @import "variables.scss";
 @import "mixins.scss";
-/* ----- HEADER START ----- */ 
+/* ----- HEADER START ----- */
 .header {
   padding-top: 39px;
   padding-bottom: 39px;
@@ -15,7 +15,7 @@
   &__nav {
     position: relative;
     z-index: 100;
-    @include font(500, 16px)
+    @include font(500, 16px);
   }
   &__menu {
     column-gap: 60px;
@@ -80,8 +80,46 @@
 /* ----- HEADER END ----- */
 /* ----- HERO START ----- */
 .hero {
-  padding-top: 50px;
-  padding-bottom: 60px;
+  padding-top: 40px;
+  padding-bottom: 15px;
+  background-image: url(../img/hero.webp);
+  background-repeat: no-repeat;
+  background-position: 50% 30%;
+
+  .offer {
+    text-align: center;
+    padding: 0 10px;
+    margin-bottom: 42px;
+
+    &__title {
+      margin-bottom: 21px;
+      text-transform: capitalize;
+      line-height: 1.2;
+      @include font(700, 48px);
+    }
+
+    &__text {
+      margin-bottom: 33px;
+      line-height: 1.2;
+      @include font(500, 20px);
+    }
+  }
+
+  .slider {
+    &.swiper-horizontal {
+      padding: 0 12px 32px 12px;
+    }
+
+    &__slide {
+      height: 322px;
+      background-color: $text_color_main;
+      border-radius: 24px;
+    }
+
+    .swiper-pagination-bullet-active {
+      background-color: $text_color_main;
+    }
+  }
 }
 /* ----- HERO END ----- */
 /* -----  START ----- */
